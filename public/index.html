@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../public/css/tailwind.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body class="w-full bg-neutral-off-white font-Poppins h-full">
+  <div class="w-[90%] max-w-[600px] bg-neutral-white mx-auto rounded-3xl rounded-br-[130px] mt-20">
+    <form class="w-full flex flex-col px-9 mt-4 pt-12" action="#">
+      <div class="w-full flex flex-row sm:mb-[-32px]">
+        <div class="flex flex-col w-1/3 max-w-[145px]">
+          <label class="text-neutral-smokey-grey text-xs tracking-widestx mx-2" for="day">DAY</label>
+          <input class="appearance-none border border-neutral-ligth-grey rounded-md text-xl p-3 mt-1 mx-2 focus:outline-none focus:border-primary-purple focus:caret-primary-purple max-w-[120px]" id="day" type="number" placeholder="DD">
+          <p class="errorValidation mx-2 mt-1 text-[0.65rem] text-primary-light-red font-normal italic"></p>
+        </div>
+        <div class="flex flex-col w-1/3 max-w-[145px]">
+          <label class="text-neutral-smokey-grey text-xs tracking-widestx mx-2" for="month">MONTH</label>
+          <input class="appearance-none border border-neutral-ligth-grey rounded-md text-xl p-3 mt-1 mx-2 focus:outline-none focus:border-primary-purple focus:caret-primary-purple max-w-[120px]" id="month" type="number" placeholder="MM">
+          <p class="errorValidation mx-2 mt-1 text-[0.65rem] text-primary-light-red font-normal italic"></p>
+        </div>
+        <div class="flex flex-col w-1/3 max-w-[145px]">
+          <label class="text-neutral-smokey-grey text-xs tracking-widestx mx-2" for="year">YEAR</label>
+          <input class= "appearance-none border border-neutral-ligth-grey rounded-md text-xl p-3 mt-1 mx-2 focus:outline-none focus:border-primary-purple focus:caret-primary-purple max-w-[120px]" id="year" type="number" placeholder="YYYY">
+          <p class="errorValidation mx-2 mt-1 text-[0.65rem] text-primary-light-red font-normal italic"></p>
+        </div>
+      </div>
+      <button id="calculate-age-btn" class="w-16 h-16 rounded-full bg-primary-purple mx-auto relative bottom-[-28px] hover:bg-neutral-off-black sm:mx-0 self-end	">
+        <span class="w-8 h-8 bg-iconArrow inline-block bg-cover bg-center"></span>
+      </button>
+    </form>
+    <div id="result-container" class="w-full py-14 mx-9 text-5xl text-neutral-off-black font-extrabold italic border-t border-neutral-light-grey max-w-[470px] sm:text-[4.1rem]">
+      <p><span class="text-primary-purple">--</span> years</p>
+      <p><span class="text-primary-purple">--</span> months</p>
+      <p><span class="text-primary-purple">--</span> days</p>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
