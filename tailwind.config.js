@@ -1,5 +1,5 @@
 module.exports = {
-	content: ["./public/index.html", "./src/**/*.{html,js}"],
+	content: ["./index.html", "./src/**/*.{html,js}"],
 	theme: {
 	  extend: {
 		colors: {
@@ -19,7 +19,7 @@ module.exports = {
 			Poppins: ["Poppins", "sans-serif"],
 		},
 		backgroundImage: {
-			'iconArrow': "url('../../assets/images/icon-arrow.svg')",
+			'iconArrow': "url('./assets/images/icon-arrow.svg')",
 		},
 		letterSpacing: {
 			tightest: '-.075em',

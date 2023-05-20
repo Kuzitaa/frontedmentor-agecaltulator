@@ -15,4 +15,8 @@
 .DS_Store
 .prettierignore
 
-.node_modules
+# Ignore the node_modules folder
+node_modules/
+
+# Ignore the design folder
+design/
