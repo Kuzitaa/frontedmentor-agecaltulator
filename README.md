@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/Kuzitaa/frontedmentor-agecaltulator)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://kuzitaa.github.io/frontedmentor-agecaltulator/)
 
 ## My process
 
